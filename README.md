@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## HOW I DESIGNED THE USER INTERFACE
+
+I started by creating four components whic can be reusable at any instance of the application. The components includes;
+=> The Bonus component which shows the number of spins available
+=> The Button component which takes on one prop called title
+=> The Chip component which shows the USER CHOICE and EXCLUSVIE
+=> The Rating component which shows the game rating and can be changed by hovering over the stars icons
+
+Every other design was implemented in the index file found in the pages folder
+
+## HOW TO VIEW THE APPLICATION
+
+The live version of the application can be found at [https://bluewindow-assessment.netlify.app/](https://bluewindow-assessment.netlify.app/)
+
+## HOW TO VIEW THE APPLICATION LOCALLY
+
+To view the application locally, you can clone the repository [https://github.com/enowdivine/blue-window-fe-assessment.git](https://github.com/enowdivine/blue-window-fe-assessment.git)
+
+After cloning the repository, run the following command `npm install` to install the dependencies and follow the Available scripts below.
+
+You can also veiw a local version of the application documentation by running the following command `npx styleguidist server`
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -1,7 +1,11 @@
 import "../styles/components/Ratings.css";
 import React, { useState } from "react";
-import { AiFillStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai"; // importing react icon
 
+/**
+ *This is the rating component and ratings can be set by hovering over the stars icon and selecting the required rate.
+ * The select rate is displayed directly below the the stars icon.
+ */
 const StarRating = () => {
   const [rating, setRating] = useState(0);
   const [hover, setHover] = useState(0);

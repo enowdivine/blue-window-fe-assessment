@@ -1,3 +1,7 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+/* Global CSS variables */
 :root {
   /* Colors: */
   --unnamed-color-fafafa: #fafafa;

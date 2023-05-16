@@ -1,6 +1,9 @@
 import "../styles/components/Bonus.css";
 import Chip from "./Chip";
 
+/**
+ * The bonus componennt comprises of the entire bonus section which indicates the number of free spins available
+ */
 const Bonus = () => {
   return (
     <fieldset className="bonus">

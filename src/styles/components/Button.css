@@ -1,3 +1,4 @@
+/* Desktop Styles */
 .btn {
   margin: 74px 0 0 47px;
   width: 240px;
@@ -20,6 +21,7 @@
   text-transform: uppercase;
 }
 
+/* Styles when viewed from a tablet */
 @media only screen and (max-width: 768px) {
   .btn {
     margin: -50px 0 0 290px;
@@ -28,6 +30,7 @@
   }
 }
 
+/* Styles when viewed from a mobile device */
 @media only screen and (max-width: 600px) {
    .btn {
     margin: 10px 0 0 10px;

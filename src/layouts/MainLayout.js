@@ -1,6 +1,9 @@
 import "../styles/layouts/MainLayout.css";
 import Chip from "../components/Chip";
 
+/**
+ * Application main layout component that wrappes the entire applicatop
+ */
 const MainLayout = ({ children }) => {
   return (
     <div className="main-layout">

@@ -1,5 +1,4 @@
-@import "../../App.css";
-
+/* Desktop Styles */
 .page-wrapper {
   text-align: center;
   display: flex;
@@ -8,9 +7,9 @@
 
 .counter {
   margin: 84px 0 0 11px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 
     var(--unnamed-font-size-24) / var(--unnamed-line-spacing-29)
-    var(--unnamed-font-family-montserrat);
+    var(--unnamed-font-family-montserrat) ;
   letter-spacing: var(--unnamed-character-spacing--0-24);
   color: var(--unnamed-color-ff5762);
   text-align: center;
@@ -31,7 +30,7 @@ img {
   background: transparent 0% 0% no-repeat padding-box;
   border-radius: 150px;
   opacity: 1;
-  padding: 18.9px 0 0 29px;
+  margin: 18.9px 0 0 29px;
 }
 
 .info-icon {
@@ -102,11 +101,12 @@ ul li {
   color: #333a40;
 }
 
+/* Styles when viewed from a tablet */
 @media only screen and (max-width: 768px) {
   img {
     width: 170px;
     height: 170px;
-    padding: 18.9px 0 0 9px;
+    margin: 18.9px 0 0 9px;
   }
   .rating {
     margin: -20px 0 0 20px;
@@ -139,15 +139,16 @@ ul li {
   }
 }
 
+/* Styles when viewed from a mobile device */
 @media only screen and (max-width: 600px) {
-    .counter{
-        position: absolute;
-        margin: 10px 0 0 320px;
-    }
-     .info-icon {
+  .counter {
+    position: absolute;
+    margin: 10px 0 0 320px;
+  }
+  .info-icon {
     margin-bottom: 80px;
   }
-   .rating {
+  .rating {
     margin: -5px 0 0 10px;
   }
   .rating h4 {
@@ -169,7 +170,7 @@ ul li {
     margin-top: 2px;
   }
   .other-info {
-    font-size: 9px;
+    font-size: 10px;
     text-align: center;
     margin-top: 10px;
   }

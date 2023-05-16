@@ -1,11 +1,14 @@
 import "../styles/pages/index.css";
+// importing components from components folder
 import StarRating from "../components/Ratings";
 import Bonus from "../components/Bonus";
 import Button from "../components/Button";
-import { AiOutlineInfoCircle } from "react-icons/ai";
+// importing icons from the react-icons library
+import { AiOutlineInfoCircle, AiFillCheckCircle } from "react-icons/ai";
 
-import { AiFillCheckCircle } from "react-icons/ai";
-
+/**
+ *  This is the page that renders immediately the application is launched
+ */
 const Index = () => {
   return (
     <>
