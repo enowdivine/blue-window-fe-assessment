@@ -1,0 +1,21 @@
+.btn {
+  margin: 74px 0 0 47px;
+  width: 240px;
+  height: 50px;
+  background: var(--unnamed-color-00aa57) 0% 0% no-repeat padding-box;
+  background: #00aa57 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+
+.btn span {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-16);
+  color: var(--unnamed-color-fafafa);
+  text-align: center;
+  font: normal normal bold 16px/19px Montserrat;
+  letter-spacing: -0.16px;
+  color: #fafafa;
+  text-transform: uppercase;
+}

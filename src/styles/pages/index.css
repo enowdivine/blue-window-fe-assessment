@@ -1,0 +1,105 @@
+@import "../../App.css";
+
+.page-wrapper {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.counter {
+    margin: 84px 0 0 26px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-24) / var(--unnamed-line-spacing-29)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-24);
+  color: var(--unnamed-color-ff5762);
+  text-align: center;
+  font: normal normal bold 24px/29px Montserrat;
+  letter-spacing: -0.24px;
+  color: #ff5762;
+  opacity: 1;
+}
+
+.group-one {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 146px;
+  height: 146px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 150px;
+  opacity: 1;
+  padding: 18.9px 0 0 29px;
+}
+
+.info-icon{
+color: var(--unnamed-color-6c6c78);
+width: 27px;
+height: 27px;
+margin-bottom: 100px;
+    
+}
+
+.rating{
+    margin-left: 60px;
+}
+
+.rating h4 {
+  margin-top: 45.75px;
+  font-size: 20px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-20) / var(--unnamed-line-spacing-36)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-2);
+  color: var(--unnamed-color-333a40);
+  text-align: left;
+  font: normal normal bold 20px/36px Montserrat;
+  letter-spacing: -0.2px;
+  color: #333a40;
+  margin-bottom: 8px;
+}
+
+.group-two {
+  display: flex;
+}
+
+ul {
+  margin: 54px 0 0 25px;
+  text-align: left;
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  margin: 13px 0 0 0;
+  font-size: 16px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-medium) var(--unnamed-font-size-16) /
+    var(--unnamed-line-spacing-19) var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-16);
+  color: var(--unnamed-color-333a40);
+  text-align: left;
+  font: normal normal medium 16px/19px Montserrat;
+  letter-spacing: -0.16px;
+  color: #333a40;
+}
+
+.check-icon {
+  color: green;
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
+}
+
+.other-info {
+  margin: 10px 0 0 16px;
+  font-size: 12px;
+  letter-spacing: var(--unnamed-character-spacing--0-12);
+  color: var(--unnamed-color-333a40);
+  text-align: left;
+  letter-spacing: -0.12px;
+  color: #333a40;
+}

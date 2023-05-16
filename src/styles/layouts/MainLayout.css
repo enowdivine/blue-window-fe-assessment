@@ -1,0 +1,13 @@
+@import "../../App.css";
+
+.main-layout {
+  margin: 200px auto;
+  width: 1480px;
+  height: 204px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: none;
+  box-shadow: 0px 0px 15px #00000027;
+  border-radius: 19px;
+  opacity: 1;
+}

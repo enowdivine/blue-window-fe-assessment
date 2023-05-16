@@ -1,0 +1,50 @@
+.bonus {
+  margin: 12px 0 0 60px;
+  width: 323px;
+  height: 137px;
+  background: var(--unnamed-color-f0f0f1) 0% 0% no-repeat padding-box;
+  background: #f0f0f1 0% 0% no-repeat padding-box;
+  border: 2px solid #49a760;
+  border-radius: 5px;
+}
+
+.bonus legend {
+  font-size: 23px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-23) / var(--unnamed-line-spacing-36)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-23);
+  color: var(--unnamed-color-333a40);
+  text-align: center;
+  font: normal normal bold 23px/36px Montserrat;
+  letter-spacing: -0.23px;
+  color: #333a40;
+}
+
+.bonus .content h2 {
+  font-size: 29px;
+  margin-top: -1px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-29) / var(--unnamed-line-spacing-35)
+    var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-29);
+  color: var(--unnamed-color-333a40);
+  text-align: center;
+  font: normal normal bold 29px/35px Montserrat;
+  letter-spacing: -0.29px;
+  color: #333a40;
+}
+
+.bonus .content p {
+  font-size: 29px;
+  margin-top: -25px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-29) /
+    var(--unnamed-line-spacing-35) var(--unnamed-font-family-montserrat);
+  letter-spacing: var(--unnamed-character-spacing--0-29);
+  color: var(--unnamed-color-333a40);
+  text-align: center;
+  font: normal normal normal 29px/35px Montserrat;
+  letter-spacing: -0.29px;
+  color: #333a40;
+}
