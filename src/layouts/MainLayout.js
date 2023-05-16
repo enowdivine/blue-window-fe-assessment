@@ -3,12 +3,10 @@ import Chip from "../components/Chip";
 
 const MainLayout = ({ children }) => {
   return (
-    <fieldset className="main-layout">
-      <legend>
-        <Chip title={"user choice"} marginTop={40} />
-      </legend>
+    <div className="main-layout">
+      <Chip title={"user choice"} marginTop={38} marginLeft={-8} />
       {children}
-    </fieldset>
+    </div>
   );
 };
 

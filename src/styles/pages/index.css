@@ -7,7 +7,7 @@
 }
 
 .counter {
-    margin: 84px 0 0 26px;
+  margin: 84px 0 0 11px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
     var(--unnamed-font-size-24) / var(--unnamed-line-spacing-29)
     var(--unnamed-font-family-montserrat);
@@ -28,23 +28,21 @@
 img {
   width: 146px;
   height: 146px;
-  /* UI Properties */
   background: transparent 0% 0% no-repeat padding-box;
   border-radius: 150px;
   opacity: 1;
   padding: 18.9px 0 0 29px;
 }
 
-.info-icon{
-color: var(--unnamed-color-6c6c78);
-width: 27px;
-height: 27px;
-margin-bottom: 100px;
-    
+.info-icon {
+  color: var(--unnamed-color-6c6c78);
+  width: 27px;
+  height: 27px;
+  margin-bottom: 100px;
 }
 
-.rating{
-    margin-left: 60px;
+.rating {
+  margin-left: 60px;
 }
 
 .rating h4 {
@@ -102,4 +100,77 @@ ul li {
   text-align: left;
   letter-spacing: -0.12px;
   color: #333a40;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 170px;
+    height: 170px;
+    padding: 18.9px 0 0 9px;
+  }
+  .rating {
+    margin: -20px 0 0 20px;
+  }
+  .rating h4 {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .info-icon {
+    margin-bottom: 140px;
+  }
+  .group-two {
+    display: flex;
+    flex-direction: column;
+  }
+  ul {
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .btn-component {
+    order: 1;
+  }
+  .other-info {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .counter{
+        position: absolute;
+        margin: 10px 0 0 320px;
+    }
+     .info-icon {
+    margin-bottom: 80px;
+  }
+   .rating {
+    margin: -5px 0 0 10px;
+  }
+  .rating h4 {
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 22px;
+  }
+  .main-layout {
+    width: 361px;
+    height: 507px;
+  }
+  img {
+    width: 124px;
+    height: 124px;
+  }
+  ul {
+    display: block;
+    padding-left: 1px;
+    margin-top: 2px;
+  }
+  .other-info {
+    font-size: 9px;
+    text-align: center;
+    margin-top: 10px;
+  }
 }

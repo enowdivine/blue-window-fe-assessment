@@ -4,7 +4,6 @@
   height: 20px;
   text-align: center;
   position: absolute;
-  margin-left: -20px;
   background: var(--unnamed-color-ff5762) 0% 0% no-repeat padding-box;
   background: #ff5762 0% 0% no-repeat padding-box;
   box-shadow: 2px 2px 0px #00000029;

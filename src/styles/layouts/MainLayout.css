@@ -6,8 +6,21 @@
   height: 204px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #ffffff 0% 0% no-repeat padding-box;
-  border: none;
   box-shadow: 0px 0px 15px #00000027;
   border-radius: 19px;
   opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-layout {
+    width: 758px;
+    height: 256px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-layout {
+    width: 100px;
+    height: 507px;
+  }
 }

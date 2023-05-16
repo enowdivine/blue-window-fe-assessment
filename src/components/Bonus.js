@@ -5,7 +5,7 @@ const Bonus = () => {
   return (
     <fieldset className="bonus">
       <legend>BONUS</legend>
-      <Chip title={"user choice"} marginTop={-10} />
+      <Chip title={"exclusive"} marginTop={-10} marginLeft={-20} />
       <div className="content">
         <h2>250 CA$</h2>
         <p>+ 80 Tour Gratuits</p>

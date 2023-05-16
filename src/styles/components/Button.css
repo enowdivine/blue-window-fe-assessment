@@ -19,3 +19,19 @@
   color: #fafafa;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    margin: -50px 0 0 290px;
+    width: 436px;
+    height: 47px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+   .btn {
+    margin: 10px 0 0 10px;
+    width: 332px;
+    height: 47px;
+  }
+}

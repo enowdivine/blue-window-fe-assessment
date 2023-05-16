@@ -23,7 +23,7 @@ const Index = () => {
           <Bonus />
         </div>
         <div className="group-two">
-          <ul>
+          <ul className="ul-list">
             <li>
               <span>
                 <AiFillCheckCircle className="check-icon" />
@@ -39,7 +39,7 @@ const Index = () => {
               Benefices non imposables
             </li>
           </ul>
-          <Button title={"JOUER"} />
+          <Button title={"JOUER"} className="btn-component" />
         </div>
       </div>
       <div className="other-info">
