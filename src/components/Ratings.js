@@ -7,7 +7,7 @@ import { AiFillStar } from "react-icons/ai"; // importing react icon
  * The select rate is displayed directly below the the stars icon.
  */
 const StarRating = () => {
-  const [rating, setRating] = useState(0);
+  const [rating, setRating] = useState(4.5);
   const [hover, setHover] = useState(0);
   return (
     <div className="star-rating">
