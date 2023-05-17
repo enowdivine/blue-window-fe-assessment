@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## HOW I DESIGNED THE USER INTERFACE
+## How I Designed The User Interface
 
 I started by creating four components whic can be reusable at any instance of the application. The components includes;
 => The Bonus component which shows the number of spins available
@@ -12,11 +12,11 @@ I started by creating four components whic can be reusable at any instance of th
 
 Every other design was implemented in the index file found in the pages folder
 
-## HOW TO VIEW THE APPLICATION
+## How To View The Application
 
 The live version of the application can be found at [https://bluewindow-assessment.netlify.app/](https://bluewindow-assessment.netlify.app/)
 
-## HOW TO VIEW THE APPLICATION LOCALLY
+## How To View The Application Locally
 
 To view the application locally, you can clone the repository [https://github.com/enowdivine/blue-window-fe-assessment.git](https://github.com/enowdivine/blue-window-fe-assessment.git)
 
